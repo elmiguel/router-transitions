@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variables";
+
+* {
+  box-sizing: border-box;
+  transition: all .4s ease;
+}
+
+html {
+  &, body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+body {
+  background-color: $bodyBackgroundColor;
+  color: $font-color;
+  font-family: $font;
+}
+
+.alert {
+  background-color: $error-color;
+  padding: 1rem;
+  margin: 0 .25rem;
+  justify-content: center;
+  align-self: center;
+  border-radius: $border-radius;
+}
+
+.container {
+  padding: 4rem;
+}

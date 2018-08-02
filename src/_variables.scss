@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400|Opens+Sans:200,300,400');
+
+$primary-color: #2cb7f8;
+$accent-color: #2385be;
+$dark-color: #3b4148;
+$font-color: #fff;
+$error-color: #e0185b;
+
+$font: 'Poppins', sans-serif;
+$border-radius: 0.25rem;
+
+
+$baseColor: #606468;
+$gridMaxWidth: 20rem;
+$gridWidth: 90%;
+$iconFill: $baseColor;
+$htmlFontSize: 100%;
+
+$bodyBackgroundColor: #2c3338;
+$bodyColor: $baseColor;
+$bodyFontFamily: 'Open Sans';
+$bodyFontFamilyFallback: sans-serif;
+$bodyFontSize: 0.875rem;
+$bodyFontWeight: 400;
+$bodyLineHeight: 1.5;
+
+$paragraphMarginBottom: 1.5rem;
+$paragraphMarginTop: 1.5rem;
+$anchorColor: #eee;
+$formFieldMargin: 0.875rem;
+$loginBorderRadus: 0.25rem;
+$loginColor: #eee;
+
+$loginInputBackgroundColor: #3b4148;
+$loginInputHoverBackgroundColor: #434a52;
+
+$loginLabelBackgroundColor: #363b41;
+
+$loginSubmitBackgroundColor: #2cb7f8;
+$loginSubmitColor: #eee;
+$loginSubmitHoverBackgroundColor: #2385be;
